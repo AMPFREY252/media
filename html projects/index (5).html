@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICES WE OFFER</title>
+    <style>
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            padding: 20px;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 40px;
+            flex-wrap: wrap;
+        }
+
+        .service {
+            text-align: center;
+            margin-bottom: 20px;
+            flex: 0 0 calc(33.33% - 20px);
+            max-width: calc(33.33% - 20px);
+            transition: transform 0.3s ease;
+            border-radius: 5px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .service:hover {
+            transform: translateY(-5px);
+        }
+
+        .service h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .service img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .service p {
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .service:hover p {
+            opacity: 1;
+        }
+
+        .additional-info {
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        .additional-info p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        #view-inside-btn {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        #view-inside-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Our Studio!</h1>
+    <div class="services-container">
+        <div class="service">
+            <h2>Photography</h2>
+            <img src="s1 (1).jpg" alt="Portrait Photography">
+            <img src="m1.jpg">
+            <p>Capture the moment with our professional photography services.</p>
+        </div>
+        <div class="service">
+            <h2>Videography</h2>
+            <img src="m2.jpg" alt="Videography">
+            <img src="m5.jpg">
+            <p>Bring your story to life with our high-quality videography services.</p>
+        </div>
+        <div class="service">
+            <h2>Printing</h2>
+            <img src="p1.jpg" alt="Printing Services">
+            <img src="p2.jpg">
+            <p>Get your prints done with precision and quality.</p>
+        </div>
+    </div>
+    <div class="additional-info">
+        <p>
+            Our services also include passport photos, photocopying, computer training, servicing, and more. Explore our studio to see the full range of services we offer.
+        </p>
+        <button id="view-inside-btn">
+            <a href="index (3).html">View Inside Our Studio</a>
+        </button>
+    </div>
+</body>
+</html>

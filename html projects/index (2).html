@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Website</title>
+    <style>
+        /* CSS code for styling and animations */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Light gray background */
+            color: #333;
+        }
+
+        header {
+            background-color: #343a40; /* Dark background color for header */
+            color: #fff; /* White text color */
+            padding: 20px;
+            text-align: center;
+        }
+
+        section {
+            padding: 50px 20px;
+            background-color: #fff; /* White background color for sections */
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative; /* Added for animations */
+            overflow: hidden; /* Added for animations */
+        }
+
+        .about {
+            text-align: center;
+        }
+        img{
+            height: 500px;
+            width: 600px;
+        }
+
+        .about img {
+            max-width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #343a40; /* Dark text color for headings */
+            animation: fadeInUp 1s ease; /* Animation for fade-in effect */
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+            animation: slideInLeft 1s ease; /* Animation for slide-in effect */
+        }
+
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            animation: slideInRight 1s ease; /* Animation for slide-in effect */
+        }
+
+        /* Keyframes for animations */
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our stratenext media productions</h1>
+    </header>
+    <section id="mission">
+        <h1>MISSION</h1>
+        <p>                                    
+            To provide innovative digital technologies to inform, engage, and connect voices and interests of communities.
+        </p>
+        <img src="m3.jpg"
+    </section>
+    <section class="about">
+        <h1>WHO ARE WE</h1>
+        <p>
+            We are a dynamic team passionate about delivering top-notch media services worldwide. From quality photography to engaging videography, we cater to individuals, firms, schools, and various other groups. Our projects span across Uganda and beyond, fostering innovation and creativity in every endeavor.
+        </p>
+        <img src="m6.jpg">
+        <hr>
+        <h1>OBJECTIVES</h1>
+        <ul>
+            <li>To provide individuals and organizations the necessary resources and support for producing programming for access channels, including training, equipment, production facilities, and channel time.</li>
+            <li>To promote and develop activities, concerns, and interests of the citizens of Uganda in a manner that encourages a free exchange of ideas and information.</li>
+            <li>To develop funding resources and administer such funds to promote education and government programming in the public interest.</li>
+        </ul>
+        <img src="m5.jpg">
+    </section>
+</body>
+</html>

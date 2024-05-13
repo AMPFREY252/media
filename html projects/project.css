@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to tables */
+table {
+    height: 100px;
+    width: 300px;
+}
+
+/* Styling for the background image */
+body {
+    background-image: url('file:///C:/users/Hp/Desktop/html projects/14.png');
+    background-position: center;
+    background-size: cover;
+}
+
+/* Styling for headings */
+h1 {
+    color: antiquewhite;
+    text-align: left;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    color: black;
+}
+
+/* Styling for paragraphs */
+p {
+    text-align: center;
+    color: white;
+    font-family: Cambria;
+    font-size: larger;
+}
+
+/* Styling for images */
+img {
+    height: 300px;
+    width: 200px;
+}
+
+/* Styling for links */
+a {
+    color: blue;
+}
+
+/* Styling for sections */
+section {
+    display: none;
+}
+
+section:target {
+    display: block;
+}
+
+/* Styling for footer */
+footer {
+    background-color: azure;
+    height: 300px;
+}
+
+/* Styling for iframe */
+iframe {
+    width: 800px;
+    height: 500px;
+}
+
+/* Additional styling for specific elements */
+.pic {
+    background-position: center;
+}
+
+.he {
+    font-size: 24pt;
+    height: 500px;
+}
+
+.key1 {
+    background-color: black;
+    height: 300px;
+}
+
+.about {
+    background-color: oldlace;
+}
+
+.ket {
+    text-align: left;
+    background-color: rgb(102, 7, 52);
+    font-size: 20pt;
+}
+
+form {
+    background-color: aqua;
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.frm {
+    background-color: whitesmoke;
+    text-align: left;
+}
+
+.frme {
+    background-color: bisque;
+    text-align: center;
+}
+
+.k {
+    text-align: left;
+    background-color: brown;
+}
+
+.jk {
+    background-color: blue;
+    text-align: left;
+}
+
+.kl {
+    border-color: olivedrab;
+    text-align: right;
+}
+
+p1 {
+    font-size: 18pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

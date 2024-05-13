@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(m10.jpg);
+}
+
+header {
+    background-color: #26be26;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+img {
+    height: 600pxpx;
+    width: 800px;
+
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+    background-color: #f2f2f2;
+}
+hero h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.hero img {
+    width: 600px;
+    margin-top: 20px;
+}
+
+.about {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.about h2 {
+    color: #333;
+}
+
+footer {
+    background-color:chartreuse;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}

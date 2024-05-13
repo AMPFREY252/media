@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info h1 {
+    margin-top: 0;
+}
+
+.contact-info p {
+    margin-top: 5px;
+}
+
+.contact-details {
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    margin-top: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    margin-top: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="contact-info">
+        <h1>Our Contacts</h1>
+        <hr>
+        <h1>Kabale</h1>
+        <p>Adit shop room 002</p>
+        
+        <h1>Mbarara</h1>
+        <p>Town cinema building</p>
+        
+        <h1>Kampala</h1>
+        <p>Old taxi park Strate-next building</p>
+    </div>
+    <hr>
+    <hr>
+   
+    <div class="contact-details">
+        <p>
+            Strate-next media productions<br>
+            P.O.BOX. 914, Kabale.<br>
+            TEL: 0773252005 / 0757959056 / 0700364032<br>
+            <button onclick="openEmail()">stratenext@gmail.com</button>
+        </p>
+    </div>
+    <hr>
+    <hr>
+    <form action="submit" method="post">
+        <label for="message">Send Us a Message</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br>
+        <input type="submit" value="SEND">
+    </form>
+
+    <script>
+        function openEmail() {
+            window.location.href = "mailto:stratenext@gmail.com";
+        }
+    </script>
+</body>
+</html>
+
+
